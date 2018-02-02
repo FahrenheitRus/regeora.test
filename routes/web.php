@@ -11,11 +11,6 @@
 |
 */
 
-use App\Models\Bus\Stop;
-
 Route::get('/', function () {
-
-
-    dd(Stop::getIndustrialStopsBetween('18:00', '20:00'));
-//    return view('welcome');
+    return view('welcome');
 });
